@@ -2,6 +2,7 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 urlBanco = "postgresql://kopke:848561@localhost:5432/rodrigokopke"
+nova_urlBanco = "postgresql://kopke:848561@localhost:5432/rodrigokopke"
 
 engine = create_engine(urlBanco)
 _engine = create_engine(urlBanco)
